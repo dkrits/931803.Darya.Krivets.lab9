@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>lab9</title>
+    <meta charset='UTF-8' />
+    <link rel='stylesheet' type='text/css' href='style.css' />
+ </head>
+ <body>
+    <table>
+        <tr>
+        <td colspan='5'><div class='textdiv'><p class='text'>
+                        <span class='first'></span>
+                        <span class='second'></span></p></div></tr>
+        <tr>
+          <td><input type='button' class='buttons' value='7' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='8' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='9' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='/' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='C' onclick='calc(this.value)'></td>
+        </tr>
+
+        <tr>
+          <td><input type='button' class='buttons' value='4' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='5' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='6' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='*' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='CE' onclick='calc(this.value)'></td>
+        </tr>
+
+        <td><input type='button' class='buttons' value='1' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='2' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='3' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='-' onclick='calc(this.value)'></td>
+          <td rowspan='2'><input type='button' class='buttons' style = 'height:124px;' value='=' onclick='calc(this.value)'></td>
+        </tr>
+
+        <tr>
+          <td colspan='2'><input type='button' class='buttons' style = 'width: 124px;' value='0' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='.' onclick='calc(this.value)'></td>
+          <td><input type='button' class='buttons' value='+' onclick='calc(this.value)'></td>
+        </tr>
+
+    </table>
+
+    <script src='action.js'></script>
+
+ </body>
+</html>
